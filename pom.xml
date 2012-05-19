@@ -8,6 +8,7 @@
 	<description>A java based webdriver framework</description>
 	<properties>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 	<dependencies>
 		<dependency>
