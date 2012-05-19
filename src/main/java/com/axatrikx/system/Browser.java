@@ -1,27 +1,8 @@
-/**
- *   Copyright (C) 2012 axatrikx(Amal Bose).
- *
- *	 This file Browser.java is part of AxaDriver.
- *
- *   AxaDriver is free software: you can redistribute it and/or modify
- *   it under the terms of the GNU General Public License as published by
- *   the Free Software Foundation, either version 3 of the License, or
- *   (at your option) any later version.
- *
- *   AxaDriver is distributed in the hope that it will be useful,
- *   but WITHOUT ANY WARRANTY; without even the implied warranty of
- *   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- *   GNU General Public License for more details.
- *
- *   You should have received a copy of the GNU General Public License
- *   along with SeleniumGridAutomator.  If not, see <http://www.gnu.org/licenses/>.
- *   @author amalbose
- *   @created May 19, 2012
- */
 package com.axatrikx.system;
 
 /**
- * The browser class for AxaDriver. Its responsible for setting the browser name, browser location and other details regarding the browser.
+ * The browser class for AxaDriver. Its responsible for setting the browser name, browser location and other
+ * details regarding the browser.
  */
 public class Browser {
 
@@ -35,7 +16,8 @@ public class Browser {
 	private String	browserLocation;
 
 	/**
-	 * The constructor for Browser which sets the browserName. The browser executable location is expected to be the default location.
+	 * The constructor for Browser which sets the browserName. The browser executable location is expected to
+	 * be the default location.
 	 * 
 	 * @param browserName
 	 *            Name of the browser.
