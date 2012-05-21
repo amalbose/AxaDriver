@@ -1,13 +1,20 @@
 package com.axatrikx.axadriver;
 
+import org.apache.log4j.Logger;
+
+/**
+ * Entry point. Main class of axadriver.
+ */
 public class AxaDriver {
+	/**
+	 * Setting logger.
+	 */
+	private static Logger	logger	= Logger.getLogger(AxaDriver.class);
 
 	/**
-	 * @param args
+	 * Constructor.
 	 */
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		System.out.println("Hello");
+	AxaDriver() {
+		logger.info("Starting up..");
 	}
-
 }
